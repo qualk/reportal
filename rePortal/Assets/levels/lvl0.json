@@ -1,0 +1,82 @@
+{
+    "levelTitle": "Level 0 - The First Step",
+    "modelPath": "Assets/models/lvl0.glb",
+    "modelPos": [0,0,0],
+    "modelHpr": [90,270,90],
+    "playerStartPos": [0,0,1.25],
+    "playerStartHpr": [90,0,0],
+    "nextLevel": "lvl1",
+    "numLinks": 0,
+    "collisionBoxes":
+    [
+        {
+            "dimensions": [6,5,0.05],
+            "pos": [-1,0,-0.05],
+            "desc": "nonportal collider"
+        },
+        {
+            "dimensions": [5,5,0.05],
+            "pos": [0,0,8.05],
+            "desc": "nonportal collider"
+        },
+        {
+            "dimensions": [0.05,5,4],
+            "pos": [5.05,0,4],
+            "desc": "portal collider"
+        },
+        {
+            "dimensions": [5,0.05,4],
+            "pos": [0,5.05,4],
+            "desc": "portal collider"
+        },
+        {
+            "dimensions": [5,0.05,4],
+            "pos": [0,-5.05,4],
+            "desc": "portal collider"
+        },
+        {
+            "dimensions": [0.05,1,4],
+            "pos": [-5.05,-4,4],
+            "desc": "portal collider"
+        },
+        {
+            "dimensions": [0.95,0.05,2],
+            "pos": [-6.05,-3.05,2],
+            "desc": "portal collider"
+        },
+                {
+            "dimensions": [0.05,1,4],
+            "pos": [-5.05,4,4],
+            "desc": "portal collider"
+        },
+        {
+            "dimensions": [0.95,0.05,2],
+            "pos": [-6.05,3.05,2],
+            "desc": "portal collider"
+        },
+        {
+            "dimensions": [0.05,3,2],
+            "pos": [-7.05,0,2],
+            "desc": "portal collider"
+        },
+        {
+            "dimensions": [0.05,3,2],
+            "pos": [-5.05,0,6],
+            "desc": "portal collider"
+        },
+        {
+            "dimensions": [0.95,3,0.05],
+            "pos": [-6.05,0,4.05],
+            "desc": "nonportal collider"
+        }
+    ],
+    "entities":
+    [
+        {
+            "type": "levelEnd",
+            "pos": [-6,0,1.5],
+            "hpr": [0,0,0],
+            "linkID": 0
+        }
+    ]
+}

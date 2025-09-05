@@ -1,0 +1,112 @@
+{
+    "levelTitle": "Level 1 - The Gap",
+    "modelPath": "Assets/models/lvl1.glb",
+    "modelPos": [0,0,0],
+    "modelHpr": [90,270,90],
+    "playerStartPos": [3,0,1.25],
+    "playerStartHpr": [90,0,0],
+    "nextLevel": "lvl2",
+    "numLinks": 0,
+    "collisionBoxes":
+    [
+        {
+            "dimensions": [3.95,5,0.05],
+            "pos": [1.05,0,-0.05],
+            "desc": "nonportal collider"
+        },
+        {
+            "dimensions": [9,5,1],
+            "pos": [-4,0,9],
+            "desc": "nonportal collider"
+        },
+        {
+            "dimensions":[0.05,5,2],
+            "pos": [-2.95,0,-2],
+            "desc": "portal collider"
+        },
+        {
+            "dimensions": [0.05,5,4],
+            "pos": [5.05,0,4],
+            "desc": "portal collider"
+        },
+        {
+            "dimensions": [9,0.05,4],
+            "pos": [-4,5.05,4],
+            "desc": "portal collider"
+        },
+        {
+            "dimensions": [0.05,1,4],
+            "pos": [-13.05,4,4],
+            "desc": "portal collider"
+        },
+        {
+            "dimensions": [0.95,0.05,2],
+            "pos": [-14.05,3.05,2],
+            "desc": "portal collider"
+        },
+        {
+            "dimensions": [9,0.05,4],
+            "pos": [-4,-5.05,4],
+            "desc": "portal collider"
+        },
+        {
+            "dimensions": [0.05,1,4],
+            "pos": [-13.05,-4,4],
+            "desc": "portal collider"
+        },
+        {
+            "dimensions": [0.95,0.05,2],
+            "pos": [-14.05,-3.05,2],
+            "desc": "portal collider"
+        },
+        {
+            "dimensions": [0.05,3,2],
+            "pos": [-15.05,0,2],
+            "desc": "portal collider"
+        },
+        {
+            "dimensions": [0.05,3,2],
+            "pos": [-13.05,0,6],
+            "desc": "portal collider"
+        },
+        {
+            "dimensions": [0.95,3,0.05],
+            "pos": [-14.05,0,4.05],
+            "desc": "nonportal collider"
+        },
+        {
+            "dimensions": [3,0.05,2],
+            "pos": [-6,5.05,-2],
+            "desc": "portal collider"
+        },
+        {
+            "dimensions": [3,0.05,2],
+            "pos": [-6,-5.05,-2],
+            "desc": "portal collider"
+        },
+        {
+            "dimensions": [0.05,5,2],
+            "pos": [-9.05,0,-2],
+            "desc": "portal collider"
+        },
+        {
+            "dimensions": [2.95,5,0.05],
+            "pos": [-12.05,0,-0.05],
+            "desc": "portal collider"
+        },
+        {
+            "dimensions": [3,5,0.05],
+            "pos": [-6,0,-4.05],
+            "desc": "nonportal collider"
+        }
+    ],
+    "entities":
+    [
+        {
+            "type": "levelEnd",
+            "pos": [-14,0,1.5],
+            "hpr": [0,0,0],
+            "linkID": 0
+        }
+    ]
+}

@@ -1,0 +1,112 @@
+{
+    "levelTitle": "test",
+    "modelPath": "Assets/models/testLevel2.glb",
+    "modelHpr": [90,270,90],
+    "playerStartPos": [0,0,2],
+    "playerStartHpr": [-90,0,0],
+    "nextLevel": "lvl0",
+    "numLinks": 1,
+    "collisionBoxes":
+    [
+        {
+            "dimensions": [7,7,1],
+            "pos": [0,0,-1],
+            "desc": "nonportal collider"
+        },
+        {
+            "dimensions": [2,3,1],
+            "pos": [9,0,-1],
+            "desc": "nonportal collider"
+        },
+        {
+            "dimensions": [3,5,1],
+            "pos": [14,0,-1],
+            "desc": "nonportal collider"
+        },
+        {
+            "dimensions": [7,7,1],
+            "pos": [0,0,5],
+            "desc": "nonportal collider"
+        },
+        {
+            "dimensions": [2,3,1],
+            "pos": [9,0,5],
+            "desc": "nonportal collider"
+        },
+        {
+            "dimensions": [3,5,1],
+            "pos": [14,0,5],
+            "desc": "nonportal collider"
+        },
+        {
+            "dimensions": [1,7,2],
+            "pos": [-8,0,2],
+            "desc": "portal collider"
+        },
+        {
+            "dimensions": [7,1,2],
+            "pos": [0,-8,2],
+            "desc": "portal collider"
+        },
+        {
+            "dimensions": [7,1,2],
+            "pos": [0,8,2],
+            "desc": "portal collider"
+        },
+        {
+            "dimensions": [2,2,2],
+            "pos": [9,5,2],
+            "desc": "portal collider"
+        },
+        {
+            "dimensions": [2,2,2],
+            "pos": [9,-5,2],
+            "desc": "portal collider"
+        },
+        {
+            "dimensions": [1,5,2],
+            "pos": [18,0,2],
+            "desc": "portal collider"
+        },
+        {
+            "dimensions": [3,1,2],
+            "pos": [14,6,2],
+            "desc": "portal collider"
+        },
+        {
+            "dimensions": [3,1,2],
+            "pos": [14,-6,2],
+            "desc": "portal collider"
+        }
+    ],
+    "entities":
+    [
+        {
+            "type": "box",
+            "pos": [2,0,3],
+            "hpr": [0,0,0]
+        },
+        {
+            "type": "a",
+            "pos": [-4,0,3],
+            "hpr": [0,0,0]
+        },
+        {
+            "type": "a",
+            "pos": [-4,3,3],
+            "hpr": [0,0,0]
+        },
+        {
+            "type": "floorButton",
+            "pos": [3,3,0],
+            "hpr": [0,0,0],
+            "linkID": 1
+        },
+        {
+            "type": "levelEnd",
+            "pos": [5,-4,1.5],
+            "hpr": [0,0,0],
+            "linkID": 1
+        }
+    ]
+}
